@@ -10,9 +10,9 @@ import java.util.ArrayList;
 
 
 public class Pult extends JFrame {
+    private String textOut;
     private String[] textFieldStrings;
     private int buttonsCount;
-    private String textOut;
     private ArrayList<RoundButton> arrRoundButton;
     private JTextPane pane;
     private Supervisor supervisor;
