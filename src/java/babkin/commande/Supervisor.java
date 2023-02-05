@@ -10,6 +10,7 @@ public class Supervisor {
     private int buttonsCount = 9;
     public void start(){
         Pult pult = new Pult(textFieldStrings, buttonsCount);
+        pult.setTextOut("Проба\nПривет\nМир!");
         pult.myCreateAndShowAPI(pult);
     }
 }
