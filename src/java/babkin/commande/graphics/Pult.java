@@ -56,7 +56,7 @@ public class Pult extends JFrame {
     }
     private void makePortContainer(JFrame frame) {
         JPanel container = new JPanel();
-        container.setPreferredSize(new Dimension(250,400));
+        container.setPreferredSize(new Dimension(300,400));
         JLabel[] labels = new JLabel[buttonsCount];
         JPanel ports = new JPanel();
         ports.setBorder(BorderFactory.createTitledBorder("Состояние портов"));
@@ -82,7 +82,7 @@ public class Pult extends JFrame {
     }
     private void makePultContainer(JFrame frame) {
         JPanel container = new JPanel();
-        container.setPreferredSize(new Dimension(250,400));
+        container.setPreferredSize(new Dimension(300,400));
         JLabel[] labels = new JLabel[buttonsCount];
         JPanel textControlsPane = new JPanel();
         textControlsPane.setBorder(BorderFactory.createTitledBorder("Упрощенный пульт управления"));
